@@ -39,7 +39,7 @@ class Config implements ServiceProviderInterface
                 "host"     => getenv('SYMFONY__SHORTEN__HOST'),
                 "user" => getenv('SYMFONY__SHORTEN__USER'),
                 "password" => getenv('SYMFONY__SHORTEN__PASSWORD'),
-                "port"     => getenv('SYMFONY__SHORTEN__PORT'),
+//                "port"     => getenv('SYMFONY__SHORTEN__PORT'),
                 "driver"   => "pdo_mysql",
             )
         ));

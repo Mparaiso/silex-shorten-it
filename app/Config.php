@@ -19,7 +19,8 @@ class Config implements ServiceProviderInterface
     public function register(Application $app)
     {
         !defined("ROOT") AND define("ROOT", __DIR__);
-        if (isset($_SERVER['SERVER_NAME']) && $_SERVER['SERVER_NAME'] == "localhost") {
+        if (isset($_SERVER['SERVER_NAME']) && $_SERVER['SERVER_NAME'] == "localhost"
+            || getenv('SYMFONY__SHORTEN__ENV')=='development') {
             $app['debug'] = TRUE;
         }
         $app->register(new MonologServiceProvider,

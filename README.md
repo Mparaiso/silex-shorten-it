@@ -12,6 +12,7 @@ contact: mparaiso@online.fr
 ### Setup
 
 + environment variables :
+    + environment : SYMFONY__SHORTEN__ENV ( development , production ... )
     + dbname : SYMFONY__SHORTEN__DBNAME
     + host : SYMFONY__SHORTEN__HOST
     + username : SYMFONY__SHORTEN__USER

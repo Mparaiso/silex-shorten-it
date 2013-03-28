@@ -15,6 +15,6 @@ contact: mparaiso@online.fr
     + environment : SYMFONY__SHORTEN__ENV ( development , production ... )
     + dbname : SYMFONY__SHORTEN__DBNAME
     + host : SYMFONY__SHORTEN__HOST
-    + user : SYMFONY__SHORTEN__USER
+    + user : SYMFONY__SHORTEN__USER username
     + password : SYMFONY__SHORTEN__PASSWORD
     + port : SYMFONY__SHORTEN__PORT or use default port

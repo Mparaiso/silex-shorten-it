@@ -37,7 +37,7 @@ class Config implements ServiceProviderInterface
             "db.options" => array(
                 "dbname"   => getenv('SYMFONY__SHORTEN__DBNAME'),
                 "host"     => getenv('SYMFONY__SHORTEN__HOST'),
-                "username" => getenv('SYMFONY__SHORTEN__USER'),
+                "user" => getenv('SYMFONY__SHORTEN__USER'),
                 "password" => getenv('SYMFONY__SHORTEN__PASSWORD'),
                 "port"     => getenv('SYMFONY__SHORTEN__PORT'),
                 "driver"   => "pdo_mysql",

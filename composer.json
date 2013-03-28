@@ -1,5 +1,6 @@
 {
     "require":{
+        "guzzle/guzzle":"*",
         "silex/silex":"*@dev",
         "Mparaiso/urlshortenerappserviceprovider":"*@dev"
     }

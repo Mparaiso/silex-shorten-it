@@ -1,0 +1,6 @@
+{
+    "require":{
+        "Mparaiso/urlshortenerappserviceprovider":"*@dev",
+        "silex/silex":"*@dev"
+    }
+}
